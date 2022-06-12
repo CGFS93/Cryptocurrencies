@@ -18,8 +18,7 @@ Accountability Accounting, a prominent investment bank, is interested in offerin
 
 
 ## Results
-After preprocessing and cleaning phase there is a total of 532 tradable cryptocurrencies.
-<br><br>
+
 
 ### Clustering Cryptocurrencies using K-Means - Elbow Curve
 The output of this analysis is unknown so unsupervised machine learning is utilized to identify clusters for cryptocurrencies.\
