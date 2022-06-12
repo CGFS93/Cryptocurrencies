@@ -12,8 +12,9 @@ We use the following methods for the analysis:
 
 ## Resources
 **Data Source:** [crypto_data.csv](https://github.com/cedoula/Cryptocurrencies/blob/main/Resources/crypto_data.csv).
+
 **Software:** Python, Conda, Jupyter Notebook.
-<br><br>
+
 
 ## Results
 Following the preprocessing and cleaning phase we have a total of 532 tradable cryptocurrencies.
