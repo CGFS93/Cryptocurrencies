@@ -1,30 +1,31 @@
 # Cryptocurrencies
 
 ## Analysis Overview
-The purpose of this project is to use unsupervised machine learning to analyze a database of cryptocurrencies and create a report including the traded cryptocurrencies classified by group according to their features.\
-This classification report could be used by an investment bank to propose a new cryptocurrency investment portfolio to its clients.\
-We use the following methods for the analysis:
-- preprocessing the database,
-- reducing the data dimension using Principal Component Analysis,
-- clustering cryptocurrencies using K-Means,
+
+- Preprocessing the Data for PCA
+- Reducing Data Dimensions Using PCA
+- Clustering Cryptocurrencies Using K-means
 - visualizing classification results with 2D and 3D scatter plots.
+
+### Purpose 
+Accountability Accounting, a prominent investment bank, is interested in offering a new cryptocurrency investment portfolio for its customers. The company, however, is lost in the vast universe of cryptocurrencies. So, they’ve asked you to create a report that includes what cryptocurrencies are on the trading market and how they could be grouped to create a classification system for this new investment.
 <br><br>
 
 ## Resources
-**Data Source:** [crypto_data.csv](https://github.com/cedoula/Cryptocurrencies/blob/main/Resources/crypto_data.csv).
+**Data Source:** [crypto_data.csv](https://github.com/CGFS93/Cryptocurrencies/blob/main/Resources/crypto_data.csv).
 
 **Software:** Python, Conda, Jupyter Notebook.
 
 
 ## Results
-Following the preprocessing and cleaning phase we have a total of 532 tradable cryptocurrencies.
+After preprocessing and cleaning phase there is a total of 532 tradable cryptocurrencies.
 <br><br>
 
 ### Clustering Cryptocurrencies using K-Means - Elbow Curve
-We don't know what would be the output of the analysis so we are using unsupervised machine learning to identify clusters of the cryptocurrencies.\
+The output of this analysis is unknown so unsupervised machine learning is utilized to identify clusters for cryptocurrencies.\
 The K-Means method iterating on k values from 1 to 10. 
 
-The best k value appears to be 4 so we would conclude on an output of 4 clusters to categorize the crytocurrencies.
+The best k value appears to be 4 so in conclusion to use an output of 4 clusters to categorize the crytocurrencies.
 <br><br>
 
 ### Visualizing Cryptocurrencies
@@ -35,23 +36,23 @@ The 3-D scatter plot was obtained using the PCA algorithm to reduce the crytocur
 
 #### 2D-Scatter plot with clusters
 
-This 2-D scatter plot was obtained using the PCA algorithm to reduce the crytocurrencies dimensions to two principal components.
+The 2-D scatter plot was obtained using the PCA algorithm to reduce the crytocurrencies dimensions to two principal components.
 <br><br>
-Both these scatter plots show the distribution and the four clusters of cryptocurrencies.<br>
-We can identify the outliers like the unique cryptocurrency in the class #2.
+Both scatter plots show the distribution and the four clusters of cryptocurrencies.<br>
+The outliers identify the unique cryptocurrency in the class #2.
 <br><br>
 
 #### Tradable Cryptocurrencies Table
 
 Most of the cryptocurrencies are part of class #0 and #1.<br>
-The snapshot above shows that BitTorrent is the only cryptocurrency in class #2.
+BitTorrent is the only cryptocurrency in class #2.
 <br><br>
 
 #### 2D-Scatter plot with TotalCoinMined vs TotalCoinSupply
 
-Plotting the scatter plot from two cryptocurrency features directly does not efficiently segregate the different classes. Then using the PCA algorithm is the right method for better visualizations.
+Plotting the scatter plot from two cryptocurrency features are not efficiently segregated by different classes. Using the PCA algorithm is the right method for better visualizations.
 <br><br>
 
 ## Summary
-We have identified the classification of 532 cryptocurrencies based on similarities of their features.\
+The identified classification of 532 cryptocurrencies are based on similarities among features.\
 Particularities of each group need to be analyzed to determined their performance and potential interest for the investment bank's clients.
